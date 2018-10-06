@@ -1,24 +1,24 @@
-# Mobile Web Specialist Certification Course
+# FEND Restaurant Review App
 ---
-#### _Three Stage Course Material Project - Restaurant Reviews_
 
-## Project Overview: Stage 1
+## App Description
 
-For the **Restaurant Reviews** projects, you will incrementally convert a static webpage to a mobile-ready web application. In **Stage One**, you will take a static design that lacks accessibility and convert the design to be responsive on different sized displays and accessible for screen reader use. You will also add a service worker to begin the process of creating a seamless offline experience for your users.
+This App simulates a **Restaurant Review Site** This site was produced with starter code given by Udacity at this [repository](https://github.com/udacity/mws-restaurant-stage-1.git). My task was to fix problems, and create a Javascript Service Worker that creates an offline first experience in case the user has limited or no internet connection.
 
-### Specification
+### How to run the APP?
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+In this folder, start up a simple HTTP server to serve up the site files on your local computer. You can use [Google Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) to do this, you can get it [here](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
 
-### What do I do from here?
+A Web Server for Chrome, serves web pages from a local folder over the network, using HTTP. Runs offline.
+Web Server for Chrome is an open source (MIT) HTTP server for Chrome.
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+It runs anywhere that you have Chrome installed, so you can take it anywhere. It even works on ARM chromebooks.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+It now has the option to listen on the local network, so other computers can access your files. Additionally, it can try and get an internet address.
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+Many people use this to do basic web development on a chromebook. It is also handy for sharing files over a local network between computers, or even on the internet.
+
+Once you install it, navigate to http://127.0.0.1:8887
 
 ## Leaflet.js and Mapbox:
 
@@ -27,9 +27,3 @@ This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://w
 ### Note about ES6
 
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
-
-
-
-# Restaurant-App
-# Restaurant-App
-# Restaurant-App
